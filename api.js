@@ -1,6 +1,6 @@
 let express = require('express');
 let api = express();
-let port = 9737;
+let port = process.env.PORT || 9737;
 const bodyparser = require('body-parser');
 const cors = require('cors');
 let {dbConnect , getData, postData, updateOrder, deleteOrder} = require('./controller/dbcontroller');
