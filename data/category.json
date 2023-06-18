@@ -2,27 +2,33 @@ db.category.insert(
 [
     {
         "id" : 1 ,
-        "category":"Cloths"
+        "category":"Cloths",
+        "img":"https://i.ibb.co/swYvbCB/weddingdress.jpg"
     },
     {
         "id":2,
-        "category": "Electronics"
+        "category": "Electronics",
+        "img":"https://i.ibb.co/N7CkGbT/apple.jpg"
     },
     {
         "id":3,
-        "category":"Beauty_products"
+        "category":"Beauty_products",
+        "img":"https://i.ibb.co/yWgWw58/Creams-Moisturisers.jpg"
     },
     {
         "id":4,
-        "category":"Grocery"
+        "category":"Grocery",
+        "img":"https://i.ibb.co/2MF4y63/Oil-Ghee.jpg"
     },
     {
         "id":5,
-        "category":"Health_care_products"
+        "category":"Health_care_products",
+        "img":"https://i.ibb.co/XyLBQY6/Daibetes-care.jpg"
     },
     {
         "id":6,
-        "category":"stationery"
+        "category":"stationery",
+        "img":"https://i.ibb.co/THy0Kbc/Notebooks-Writing-Pads.webp"
     }
 ]
 )
